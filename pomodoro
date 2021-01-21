@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+python3 pomodoro.py -d > /dev/null 2>&1 &
+echo pomodoro timer started with default arguments
+echo
