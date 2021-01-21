@@ -21,6 +21,7 @@ def alert(msg):
     subprocess.run([
         "notify-send",
         "--hint=string:sound-name:system-ready",
+        "Pomodoro",
         msg,
     ])
     return True
