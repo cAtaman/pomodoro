@@ -36,7 +36,7 @@ def parse_args():
         print(' arguments are in minutes (except no_sess)')
         print('\n options')
         print(' -d            use default values: 4, 25, 5, 15')
-        print(' -r [n <int>]  to repeat the timer for "n" times; set to 0 to repeat infinitely')
+        print(' -r [n <int>]  to repeat the timer for "n" times; by default it repeat infinitely')
         print(' -h, --help    displays this help menu')
         print()
         sys.exit()
